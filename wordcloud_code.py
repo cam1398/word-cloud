@@ -62,6 +62,8 @@ wc = WordCloud(background_color="white", max_words=1000, mask=parrot_mask,
 plt.figure(figsize=[20,10])
 plt.imshow(wc, interpolation='bilinear')
 plt.axis("off")
+plt.savefig('testplot.jpg')
+
 plt.show()
 
 
